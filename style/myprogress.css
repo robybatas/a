@@ -55,31 +55,68 @@ nav ul li a:hover:not(.active) {
     margin-right: 120px;
     margin-left: 120px;
     margin-top: 1px;
+    margin-bottom: 10px;
     background: rgba(128, 0, 0, 0.705);
     border-left: 180px solid black;
 }
 
 section {
-    font-family: 'Courier New', Courier, monospace;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    display: table;
+    clear: both;
 }
 
-section ul {
+section aside {
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0px;
+    margin-left: 120px;
+    padding-left: 10px;
+    padding-right: 2px;
+    margin-bottom: 0;
+    float: left;
+    width: 170px;
+}
+
+section aside ul {
     list-style-type: none;
-    text-align: center;
     margin: 0;
     padding: 0;
 }
 
-section ul li a {
+section aside ul h3 {
+    color: rgba(128, 0, 0, 0.705);
+    margin-bottom: 4px;
+}
+
+section aside ul li a {
     text-decoration: none;
     color: black;
     font-weight: lighter;
+    display: block;
+    padding-left: 4px;
 }
 
-section ul li a:hover {
-    color: rgb(128, 0, 0);
+section aside ul li a:hover:not(.active) {
+    background-color: rgb(133, 133, 133);
+}
+
+article {
+    float: left;
+    padding-left: 60px;
+    width: 860px;
+    border-left: 2px solid rgba(128, 0, 0, 0.705);
+}
+
+article div h3 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+article div p {
+    padding-top: 0px;
+    margin-top: 0px;
+    font-size: 12px;
+    color: rgba(128, 0, 0, 0.705);
 }
 
 footer {
