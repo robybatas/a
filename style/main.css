@@ -82,6 +82,28 @@ section ul li a:hover {
     color: rgb(128, 0, 0);
 }
 
+.this {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+.this ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.this ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: lighter;
+}
+
+.this ul li a:hover {
+    color: rgb(128, 0, 0);
+}
+
 footer {
     height: 18px;
     padding: auto;
